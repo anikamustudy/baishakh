@@ -5,17 +5,17 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Page | Free Next.js Template for Startup and SaaS",
-  description: "This is About Page for Startup Nextjs Template",
+  title: "",
+  description: "",
   // other metadata
 };
 
 const AboutPage = () => {
   return (
     <>
-      <Breadcrumb
-        pageName="About Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+      <Breadcrumb 
+        pageName="About Bimal Gyawali"
+        description="He is an Electrical Engineer specializing in the Control and Protection of hydropower plants, currently leading the electrical operations at the Kaligandaki 'A' Hydropower Plant. His expertise encompasses designing, implementing, and maintaining advanced control systems using PLCs, SCADA, DCS, and renewable energy technologies. He has extensive experience with ABB-based DCS and SCADA systems, ABB protection relays and excitation systems, Siemens PLCs, and WAGO field bus couplers and I/O modules. With a solid foundation in electrical engineering, he is passionate about integrating innovative technologies to enhance the efficiency, reliability, and safety of hydropower generation, contributing to sustainable energy solutions."
       />
       <AboutSectionOne />
       <AboutSectionTwo />
