@@ -27,12 +27,12 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                Electrical Engineer
+                Kaligandaki Gaupalika-06, Khadgakot, Gulmi
                 </p>
                 <div className="flex items-center">
                   <a
-                    href="/"
+                    href="https://www.facebook.com/bimal.gyawali07"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -52,7 +52,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/"
+                    href="https://x.com/n_noway"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -74,23 +74,28 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/"
+                    href="/https://www.instagram.com/bimal.gyawali07/"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                   >
-                    <svg
-                      width="18"
-                      height="14"
-                      viewBox="0 0 18 14"
-                      className="fill-current"
-                    >
-                      <path d="M17.5058 2.07119C17.3068 1.2488 16.7099 0.609173 15.9423 0.395963C14.5778 7.26191e-08 9.0627 0 9.0627 0C9.0627 0 3.54766 7.26191e-08 2.18311 0.395963C1.41555 0.609173 0.818561 1.2488 0.619565 2.07119C0.25 3.56366 0.25 6.60953 0.25 6.60953C0.25 6.60953 0.25 9.68585 0.619565 11.1479C0.818561 11.9703 1.41555 12.6099 2.18311 12.8231C3.54766 13.2191 9.0627 13.2191 9.0627 13.2191C9.0627 13.2191 14.5778 13.2191 15.9423 12.8231C16.7099 12.6099 17.3068 11.9703 17.5058 11.1479C17.8754 9.68585 17.8754 6.60953 17.8754 6.60953C17.8754 6.60953 17.8754 3.56366 17.5058 2.07119ZM7.30016 9.44218V3.77687L11.8771 6.60953L7.30016 9.44218Z" />
-                    </svg>
+              <svg
+  width="18"
+  height="18"
+  viewBox="0 0 24 24"
+  fill="currentColor"
+  xmlns="http://www.w3.org/2000/svg"
+  className="fill-current"
+>
+  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.338 3.608 1.313.975.975 1.251 2.242 1.313 3.608.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.338 2.633-1.313 3.608-.975.975-2.242 1.251-3.608 1.313-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.338-3.608-1.313-.975-.975-1.251-2.242-1.313-3.608C2.175 15.647 2.163 15.267 2.163 12s.012-3.584.07-4.85c.062-1.366.338-2.633 1.313-3.608.975-.975 2.242-1.251 3.608-1.313C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.741 0 8.332.012 7.052.07 5.72.13 4.387.39 3.3 1.475 2.213 2.562 1.953 3.894 1.893 5.226.835 6.506.823 6.915.823 12s.012 5.494.07 6.774c.06 1.332.32 2.664 1.407 3.751 1.087 1.087 2.42 1.347 3.751 1.407 1.28.058 1.689.07 6.774.07s5.494-.012 6.774-.07c1.332-.06 2.664-.32 3.751-1.407 1.087-1.087 1.347-2.42 1.407-3.751.058-1.28.07-1.689.07-6.774s-.012-5.494-.07-6.774c-.06-1.332-.32-2.664-1.407-3.751C21.336.39 20.004.13 18.672.07 17.392.012 16.983 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.999 3.999 0 1 1 0-7.998 3.999 3.999 0 0 1 0 7.998zm6.406-11.845a1.44 1.44 0 1 1-2.88 0 1.44 1.44 0 0 1 2.88 0z" />
+</svg>
+
+
+
                   </a>
                   <a
-                    href="/"
+                    href="/https://www.linkedin.com/in/bimal7/"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"

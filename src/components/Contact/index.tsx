@@ -86,7 +86,7 @@
 // export default Contact;
 "use client";
 import { useState } from "react";
-import NewsLatterBox from "./NewsLatterBox";
+// import NewsLatterBox from "./NewsLatterBox";
 import emailjs from "@emailjs/browser";
 import { useEffect } from "react";
 
@@ -208,7 +208,7 @@ const Contact = () => {
 
             {/* Optional Newsletter Box */}
             <div className="mt-10">
-              <NewsLatterBox />
+              {/* <NewsLatterBox /> */}
             </div>
           </div>
         </div>

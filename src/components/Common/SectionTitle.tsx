@@ -1,3 +1,5 @@
+"use client"
+import {motion} from "framer-motion";
 const SectionTitle = ({
   title,
   paragraph,
@@ -20,9 +22,21 @@ const SectionTitle = ({
         <h2 className="mb-4 text-3xl font-bold leading-tight! text-black dark:text-white sm:text-4xl md:text-[45px]">
           {title}
         </h2>
-        <p className="text-base leading-relaxed! text-body-color md:text-lg">
+
+
+ <motion.div className=" text-base leading-relaxed! text-body-color md:text-lg w-full px-4  bg-auto shadow-2xl rounded-2xl p-8 max-w-3xl w-full border border-gray-200"
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+      > 
+         
+
+           {paragraph}
+         
+            </motion.div>
+        {/* <p className="text-base leading-relaxed! text-body-color md:text-lg">
           {paragraph}
-        </p>
+        </p> */}
       </div>
     </>
   );

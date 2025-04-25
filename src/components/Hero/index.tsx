@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { FaLinkedin, FaLinkedinIn } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -21,9 +22,9 @@ const Hero = () => {
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="https://www.linkedin.com/in/bimal7/"
-                    className="rounded-xs bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                    className="flex items-center gap-2 rounded-xs bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
-                    Join Us
+                    <FaLinkedinIn className="text-xl" /> Join Us
                   </Link>
                   <Link
                     href="https://www.facebook.com/bimal.gyawali07"

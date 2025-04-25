@@ -1,5 +1,7 @@
+"use client"
 import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
+import {motion} from "framer-motion";
 
 // const checkIcon = (
 //   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
@@ -33,7 +35,7 @@ const AboutSectionTwo = () =>  {
          <SectionTitle
                   title="Experience 
       "
-                  paragraph=""
+                  paragraph="Professional Experience in Electrical Engineering"
                   center
                 />
       <div className="container">
@@ -43,18 +45,35 @@ const AboutSectionTwo = () =>  {
               className="relative mx-auto mb-12 aspect-25/24 max-w-[500px] text-center lg:m-0"
               data-wow-delay=".15s"
             >
-              <Image
-                src="/images/about/about-image-2.svg"
-                alt="about image"
-                fill
-                className="drop-shadow-three dark:hidden dark:drop-shadow-none"
-              />
-              <Image
-                src="/images/about/about-image-2-dark.svg"
-                alt="about image"
-                fill
-                className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
-              />
+             <motion.div
+                className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0"
+                initial={{ boxShadow: "0 0 0px rgba(0, 255, 255, 0.4)" }}
+                animate={{
+                  boxShadow: [
+                    "0 0 30px rgba(0, 255, 255, 0.4)",
+                    "0 0 30px rgba(0, 255, 255, 0.7)",
+                    "0 0 30px rgba(0, 255, 255, 0.4)",
+                  ],
+                }}
+                transition={{
+                  duration: 2,
+                  repeat: Infinity,
+                  ease: "easeInOut",
+                }}
+              >
+                <Image
+                  src="/images/about/experience-present.png"
+                  alt="about-image"
+                  fill
+                  className="mx-auto max-w-full rounded-2xl border border-cyan-400 drop-shadow-lg dark:hidden lg:mr-0"
+                />
+                <Image
+                  src="/images/about/experience-present.png"
+                  alt="skill-image"
+                  fill
+                  className="mx-auto hidden max-w-full rounded-2xl border border-cyan-400 drop-shadow-lg dark:block lg:mr-0"
+                />
+              </motion.div>
             </div>
           </div>
 
@@ -106,18 +125,36 @@ const AboutSectionTwo = () =>  {
      className="relative mx-auto mb-12 aspect-25/24 max-w-[500px] text-center lg:m-0"
      data-wow-delay=".15s"
    >
-     <Image
-       src="/images/about/about-image-2.svg"
-       alt="about image"
-       fill
-       className="drop-shadow-three dark:hidden dark:drop-shadow-none"
-     />
-     <Image
-       src="/images/about/about-image-2-dark.svg"
-       alt="about image"
-       fill
-       className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
-     />
+  <motion.div
+                className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0"
+                initial={{ boxShadow: "0 0 0px rgba(0, 255, 255, 0.4)" }}
+                animate={{
+                  boxShadow: [
+                    "0 0 30px rgba(0, 255, 255, 0.4)",
+                    "0 0 30px rgba(0, 255, 255, 0.7)",
+                    "0 0 30px rgba(0, 255, 255, 0.4)",
+                  ],
+                }}
+                transition={{
+                  duration: 2,
+                  repeat: Infinity,
+                  ease: "easeInOut",
+                }}
+              >
+                <Image
+                  src="/images/about/experience.png"
+                  alt="about-image"
+                  fill
+                  className="mx-auto max-w-full rounded-2xl border border-cyan-400 drop-shadow-lg dark:hidden lg:mr-0"
+                />
+                <Image
+                  src="/images/about/experience.png"
+                  alt="skill-image"
+                  fill
+                  className="mx-auto hidden max-w-full rounded-2xl border border-cyan-400 drop-shadow-lg dark:block lg:mr-0"
+                />
+              </motion.div>
+   
    </div>
  </div>
 
@@ -168,18 +205,35 @@ const AboutSectionTwo = () =>  {
      className="relative mx-auto mb-12 aspect-25/24 max-w-[500px] text-center lg:m-0"
      data-wow-delay=".15s"
    >
-     <Image
-       src="/images/about/about-image-2.svg"
-       alt="about image"
-       fill
-       className="drop-shadow-three dark:hidden dark:drop-shadow-none"
-     />
-     <Image
-       src="/images/about/about-image-2-dark.svg"
-       alt="about image"
-       fill
-       className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
-     />
+      <motion.div
+                className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0"
+                initial={{ boxShadow: "0 0 0px rgba(0, 255, 255, 0.4)" }}
+                animate={{
+                  boxShadow: [
+                    "0 0 30px rgba(0, 255, 255, 0.4)",
+                    "0 0 30px rgba(0, 255, 255, 0.7)",
+                    "0 0 30px rgba(0, 255, 255, 0.4)",
+                  ],
+                }}
+                transition={{
+                  duration: 2,
+                  repeat: Infinity,
+                  ease: "easeInOut",
+                }}
+              >
+                <Image
+                  src="/images/about/experience-engineer.png"
+                  alt="about-image"
+                  fill
+                  className="mx-auto max-w-full rounded-2xl border border-cyan-400 drop-shadow-lg dark:hidden lg:mr-0"
+                />
+                <Image
+                  src="/images/about/experience-engineer.png"
+                  alt="skill-image"
+                  fill
+                  className="mx-auto hidden max-w-full rounded-2xl border border-cyan-400 drop-shadow-lg dark:block lg:mr-0"
+                />
+              </motion.div>
    </div>
  </div>
 

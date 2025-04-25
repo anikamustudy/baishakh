@@ -10,7 +10,7 @@ const Features = () => {
           <SectionTitle
             title="Technical Expertise 
 "
-            paragraph=""
+            paragraph="Core Technical Expertise in Electrical Engineering & PS"
             center
           />
 
