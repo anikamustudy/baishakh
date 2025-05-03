@@ -17,9 +17,26 @@ const dotIcon = (
 
 
 const AboutSectionTwo = () =>  {
+
+  // const List = ({ text }) => (
+  //   <div className="flex items-start space-x-3">
+  //     {/* Bullet icon */}
+  //     <div className="mt-4">
+  //       <div className="h-2.5 w-2.5 rounded-full bg-[#0097A7]"></div>
+  //     </div>
+      
+  //     {/* Text */}
+  //     <p className="text-base text-body-color dark:text-gray-300 leading-relaxed">
+  //       {text} 
+        
+  //     </p>
+  //   </div>
+  // );
+  
+
   const List = ({ text }) => (
     <p className="text-body-color mb-5 flex items-center text-lg font-medium">
-      <span className="bg-primary/10 text-primary mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md">
+      <span className=" h-2.5 w-2.5  text-primary mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md">
         {dotIcon}
       </span>
       {text} 
@@ -29,13 +46,15 @@ const AboutSectionTwo = () =>  {
 
 
 
+
+
   return (
     <>
     <section className="py-16 md:py-20 lg:py-28">
          <SectionTitle
                   title="Experience 
       "
-                  paragraph="Professional Experience in Electrical Engineering"
+                  paragraph=""
                   center
                 />
       <div className="container">
@@ -93,8 +112,8 @@ const AboutSectionTwo = () =>  {
               <div
               
               >
-                <div className="mx-[-12px] flex flex-wrap">
-                  <div className=""> 
+                <div className="mx-[-12px] flex flex-wrap ">
+                  <div className="flex-items-start "> 
                   <List text="Oversee control and protection of the plant's electrical systems to ensure efficient and reliable power generation." />
                     <List text="Manage power plant control and protection systems, including supervision of protection relays and excitation systems" />
                     <List text="Integrate and maintain PLCs, HMIs, VFDs, and other critical equipment." />
@@ -112,6 +131,10 @@ const AboutSectionTwo = () =>  {
            
           
             </div>
+
+
+            
+
           </div>
         </div>
     
@@ -162,7 +185,7 @@ const AboutSectionTwo = () =>  {
    <div className="max-w-[470px]">
      <div className="mb-9">
        <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-       Addon Engineer
+                Electrical Design Engineer
        </h3>
        <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
        2018-2021
@@ -197,8 +220,10 @@ const AboutSectionTwo = () =>  {
 
 </section>
 
-<section className="py-0 md:py-20 lg:py-28">
+{/* <section className="py-0 md:py-20 lg:py-28">
 <div className="container">
+
+
 <div className="-mx-4 flex flex-wrap items-center">
  <div className="w-full px-4 lg:w-1/2">
    <div
@@ -273,7 +298,10 @@ const AboutSectionTwo = () =>  {
  </div>
 </div>
 
-</section>
+</section> */}
+
+
+
 </>
   );
 };

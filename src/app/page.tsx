@@ -6,10 +6,11 @@ import Contact from "@/components/Contact";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import { Metadata } from "next";
+import "../styles/index.css";
 
 export const metadata: Metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
-  description: "This is Home for Startup Nextjs Template",
+  title: "Bimal Gyawali",
+  description: "Bimal Gyawali website",
   // other metadata
 };
 

@@ -29,7 +29,7 @@ const AboutSectionZero = () => {
      
               <SectionTitle 
                 title="About Bimal Gyawali"
-                paragraph="He is an Electrical Engineer specializing in the Control and Protection of hydropower plants, currently leading the electrical operations at the Kaligandaki 'A' Hydropower Plant. His expertise encompasses designing, implementing, and maintaining advanced control systems using PLCs, SCADA, DCS, and renewable energy technologies. He has extensive experience with ABB-based DCS and SCADA systems, ABB protection relays and excitation systems, Siemens PLCs, and WAGO field bus couplers and I/O modules. With a solid foundation in electrical engineering, he is passionate about integrating innovative technologies to enhance the efficiency, reliability, and safety of hydropower generation, contributing to sustainable energy solutions."
+                paragraph="I am an Electrical Engineer specializing in the Control and Protection of hydropower plants, currently leading the electrical operations at the Kaligandaki 'A' Hydropower Plant. My expertise encompasses designing, implementing, and maintaining advanced control systems using PLCs, SCADA, DCS, and renewable energy technologies. I have extensive experience with ABB-based DCS and SCADA systems, ABB protection relays and excitation systems, Siemens PLCs, and WAGO field bus couplers and I/O modules. With a solid foundation in electrical engineering, I am passionate about integrating innovative technologies to enhance the efficiency, reliability, and safety of hydropower generation, contributing to sustainable energy solutions."
             
                 mb="44px"
               />

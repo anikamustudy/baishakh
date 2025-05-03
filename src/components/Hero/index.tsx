@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaLinkedin, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebook, FaFacebookF, FaLinkedin, FaLinkedinIn } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -16,7 +16,7 @@ const Hero = () => {
                   Bimal Gyawali
                 </h1>
                 <p className="mb-12 text-base leading-relaxed! text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                Electrical Engineer <br/>   Kaligandaki Gaupalika-06, Khadgakot, Gulmi
+                Electrical Engineer <br/>  
                 </p>
                
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
@@ -24,13 +24,13 @@ const Hero = () => {
                     href="https://www.linkedin.com/in/bimal7/"
                     className="flex items-center gap-2 rounded-xs bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
-                    <FaLinkedinIn className="text-xl" /> Join Us
+                    <FaLinkedinIn className="text-xl" /> LinkedIn
                   </Link>
                   <Link
                     href="https://www.facebook.com/bimal.gyawali07"
-                    className="inline-block rounded-xs bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
+                    className=" flex items-center gap-2 rounded-xs bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
                   >
-                    Facebook
+                    <FaFacebook className="text-xl" /> Facebook
                   </Link>
                 </div>
               </div>

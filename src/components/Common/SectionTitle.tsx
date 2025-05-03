@@ -24,7 +24,7 @@ const SectionTitle = ({
         </h2>
 
 
- <motion.div className=" text-base leading-relaxed! text-body-color md:text-lg w-full px-4  bg-auto shadow-2xl rounded-2xl p-8 max-w-3xl w-full border border-gray-200"
+ {/* <motion.div className=" text-base leading-relaxed! text-body-color md:text-lg w-full px-4  bg-auto shadow-2xl rounded-2xl p-8 max-w-3xl w-full border border-gray-200"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
@@ -33,10 +33,10 @@ const SectionTitle = ({
 
            {paragraph}
          
-            </motion.div>
-        {/* <p className="text-base leading-relaxed! text-body-color md:text-lg">
+            </motion.div> */}
+        <p className="text-base leading-relaxed! text-body-color md:text-lg">
           {paragraph}
-        </p> */}
+        </p>
       </div>
     </>
   );

@@ -89,6 +89,7 @@ import { useState } from "react";
 // import NewsLatterBox from "./NewsLatterBox";
 import emailjs from "@emailjs/browser";
 import { useEffect } from "react";
+import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 
 const Contact = () => {
   const [status, setStatus] = useState("");
@@ -194,14 +195,44 @@ const Contact = () => {
 
           {/* Email Info Box */}
           <div className="w-full px-4 lg:w-5/12 xl:w-4/12">
-            <div className="align-self-stretch box p-8 text-center border border-gray-200 rounded-lg shadow-md dark:bg-[#2C303B] dark:border-gray-700">
+
+            <div className="align-self-stretch box p-6 text-center border border-gray-200 rounded-lg shadow-md dark:bg-[#2C303B] dark:border-gray-700">
               <div className="icon mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-primary text-white text-2xl mx-auto">
                 <span className="icon-paper-plane">✉️</span>
               </div>
               <h3 className="mb-2 text-xl font-semibold text-black dark:text-white">Email Address</h3>
               <p>
-                <a href="mailto:bimalgyawali7@gmail.com" className="text-primary hover:underline">
-                  bimalgyawali7@gmail.com
+                <a href="mailto:bimal.gyawali54@gmail.com" className="text-primary hover:underline">
+                bimal.gyawali54@gmail.com
+                </a>
+              </p>
+            </div>
+            <br />
+
+
+            <div className="align-self-stretch box p-6 text-center border border-gray-200 rounded-lg shadow-md dark:bg-[#2C303B] dark:border-gray-700">
+              <div className="icon mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-primary text-white text-2xl mx-auto">
+                <span> <FaFacebook className="text-2xl" /> </span> 
+
+              </div>
+              <h3 className="mb-2 text-xl font-semibold text-black dark:text-white">Facebook</h3>
+              <p>
+             
+                <a href="https://www.facebook.com/bimal.gyawali07" className="text-primary hover:underline">
+                  Bimal Gyawali
+                </a>
+              </p>
+            </div>
+
+            <br/>
+            <div className="align-self-stretch box p-6 text-center border border-gray-200 rounded-lg shadow-md dark:bg-[#2C303B] dark:border-gray-700">
+              <div className="icon mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-primary text-white text-2xl mx-auto">
+                <span>  <FaLinkedinIn className="text-xl" />  </span>
+              </div>
+              <h3 className="mb-2 text-xl font-semibold text-black dark:text-white">Linkedin</h3>
+              <p>
+                <a href="/https://www.linkedin.com/in/bimal7/" className="text-primary hover:underline">
+                  Bimal Gyawali
                 </a>
               </p>
             </div>
@@ -211,6 +242,8 @@ const Contact = () => {
               {/* <NewsLatterBox /> */}
             </div>
           </div>
+
+          
         </div>
       </div>
     </section>
